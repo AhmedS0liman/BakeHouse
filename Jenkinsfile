@@ -1,5 +1,5 @@
 pipeline {
-    agent BakeHouse
+    agent bakehouse
 
     stages {
         stage('Build Docker Image') {
