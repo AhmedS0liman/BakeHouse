@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'bakehouse' }
+    agent { label 'BakeHouseAgent' }
 
     stages {
         stage('Build Docker Image') {
