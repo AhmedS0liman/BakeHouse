@@ -1,0 +1,6 @@
+version: '3'
+services:
+  back_housee:
+    image: ahmeds0liman/back_housee:v2
+    ports:
+      - "5000:80"
